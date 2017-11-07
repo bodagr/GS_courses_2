@@ -1,0 +1,428 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	padding: 0;
+	margin: 0;
+	-webkit-font-smoothing: antialiased;
+}
+
+main {
+	margin: 0 auto;
+	width: 1200px;
+}
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.clearfix {
+	clear: both;
+}
+
+nav {
+	padding: 35px 0 45px;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav > a {
+	float: left;
+	width: 33%;
+	
+}
+
+nav ul {
+	float: right;
+}
+
+nav ul li {		
+	display: inline-block;
+	margin: 0 10px 0 40px;
+}
+
+nav ul li a {
+	color: #334752;
+	font-size: 13px;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	text-decoration: underline;
+}
+
+header {
+	background: url(../img/header.jpg);
+	text-align: center;
+	padding: 230px 250px 280px;
+	color: #fff;
+}
+
+header h3 {
+	font-size: 17px;
+	margin: 0;
+}
+
+.text_color {
+	color: #ffe600;
+}
+
+header h1 {
+	font-size: 92px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin: 0;
+	color: #fff;
+}
+
+header p {
+	font-style: 13px;
+	font-weight: 300;
+	color: #999;
+}
+
+button {
+	background-color: #fff;
+	color: #334751;
+	font-weight: 600;
+	font-size: 13px;
+	text-transform: uppercase;
+	border: none;
+	padding: 12px 30px;
+	border-radius: 20px;
+	cursor: pointer;
+	margin-top: 20px;
+	transition-duration: .5s;
+}
+
+button:hover {
+	background-color: #999;
+	color: #fff;
+	transition-duration: .4s;
+}
+
+
+h1 {
+	color: #2c4755;
+	font-weight: 600;
+	font-size: 60px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+p {
+	color: #637988;
+	font-weight: 300;
+	text-align: center;
+	font-size: 13px;
+
+}
+
+.item {
+	margin-top: 75px;
+	width: 25%;
+	text-align: center;
+	display: inline-block;
+	float: left;
+}
+
+.item h2 {
+	font-weight: 600;
+	color: #334752;
+	text-transform: uppercase;
+	font-size: 17px;
+}
+
+#phone_sect {
+	margin: 90px 0;
+}
+
+.web_content {
+	padding: 65px 100px 0;
+	background-image: url(../img/Mask.png);
+}
+
+#phone_sect img {
+	float: left;
+}
+
+#phone_sect .web_content div {
+	width: 500px;
+	float: right;
+	font-weight: 400;
+	color: #fff;
+	margin-right: 65px;
+}
+
+#phone_sect .web_content div h2 {
+	color: #ffe600;
+	font-size: 30px;
+	font-weight: 600;
+	margin-top: 0;
+	text-transform: uppercase;
+}
+
+#phone_sect .web_content div p {
+	text-align: justify;
+	color: #fff;
+	font-weight: 400;
+}
+
+#phone_sect .web_content ul {
+	margin-top: 30px;
+	margin-left: 0px;
+}
+
+#phone_sect .web_content li {
+	display: block;
+	margin: 15px 0;
+	text-transform: uppercase;
+}
+
+#phone_sect .web_content li i {
+	margin-right: 20px;
+}
+
+.button {
+	background-color: #ffe500;
+	text-align: center;
+	padding: 40px 0;
+	margin-top: -40px;
+}
+
+#portfolio {
+	margin-top: 90px;
+}
+
+#portfolio p {
+	width: 800px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#portfolio ul li{
+	display: inline-block;
+
+}
+
+#portfolio ul {
+	text-align: center;
+	margin: 75px 0 45px;
+}
+
+#portfolio li a {
+	font-size: 13px;
+	font-weight: 600;
+	text-decoration: none;
+	color: #637988;
+	padding: 0 15px;
+	text-transform: uppercase;
+	transition: 0.5s;
+
+}
+
+.active, #portfolio ul li a:hover {
+	color: #fff !important;
+	background-color: #ffe500;
+	border-radius: 10px;
+	padding: 4px 13px !important;
+	transition: .5s;
+}
+
+
+
+.item2 {
+	display: inline-block;
+	float: left;
+	width: 33%;
+	margin-bottom: 15px;	
+}
+
+.item2 img {
+	cursor: pointer;
+	transition: 0.4s;
+}
+
+.item2 img:hover {
+	opacity: 0.5;
+	transition: 0.4s;
+}
+
+#portfolio button {
+	border: none;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 12px 30px;
+	border-radius: 30px;
+	color: #fff;
+	background-color: #ffe500;
+	margin: 20px 0 70px;
+}
+
+.last_button {
+	text-align: center;
+	cursor: pointer;
+}
+
+#subscribe {
+	background-color: #ffe500;
+}
+
+#subscribe h2 {
+	font-weight: 400;
+	font-size: 26px;
+	color: #fff;
+	text-align: center;
+	padding: 30px 0 0;
+	margin: 0;
+}
+
+#subscribe form {
+	text-align: center;
+	padding: 30px 0 38px;
+}
+
+#subscribe form input[type='mail'] {
+	width: 300px;
+	border: none;
+	border-radius: 25px;
+	height: 30px;
+}
+
+#subscribe form input::-webkit-input-placeholder {
+	color:#637988;
+	font-weight: 300;
+	font-style: italic;
+	padding-left: 10px;
+
+}
+
+#subscribe form input:focus::-webkit-input-placeholder {
+	color: transparent;
+}
+
+#subscribe form input[type='submit'] {
+	border: none;
+	color: #334752;
+	font-size: 13px;
+	font-weight: 600;
+	text-transform: uppercase;
+	background-color: #fff;
+	border-radius: 25px;
+	height: 30px;
+	width: 140px;
+	cursor: pointer;
+	transition: .4s;
+}
+
+#subscribe form input[type='submit']:hover {
+	background-color: #e9e9e9;
+	transition: .4s;
+	/*color: #eee;*/
+}
+
+#contact_us {
+	background-color: #3c4a58;
+}
+
+#contact_us h1 {
+	color: #fff;
+	padding-top: 70px;
+	padding-bottom: 64px;
+	margin: 0;
+}
+
+#contact_us p {
+	text-align: center;
+	font-weight: 300;
+	margin-bottom: 65px;
+}
+
+#contact_us form input[type='text'],
+#contact_us form input[type='mail'],
+textarea {
+	background-color: transparent;
+	border: 1px solid #c0c6ca;
+	border-radius: 5px;
+	margin: 12px 12px;
+	font-weight: 300;
+}
+
+#contact_us form input[type='text'],
+#contact_us form input[type='mail'] {
+	float: left;
+	width: 306px;
+	height: 43px;
+
+}
+
+#contact_us form input[type='text']::-webkit-input-placeholder{
+	padding: 0 14px;
+	color: #fff;
+}
+
+#contact_us form input[type='mail']::-webkit-input-placeholder {
+	padding: 0 14px;
+	color: #fff;
+}
+
+textarea::-webkit-input-placeholder {
+	padding: 12px 14px;
+	color: #fff;
+}
+
+textarea {
+	width: 970px;
+}
+
+#contact_us form input[type=submit] {
+	font-weight: 600;
+	margin: 40px 42%;
+	padding: 10px 20px;
+	background-color: #fff;
+	border: none;
+	border-radius: 25px;
+	color: #fff;
+	font-size: 13px;
+	text-transform: uppercase;
+	cursor: pointer;
+	color:#334752;
+}
+
+
+footer {
+	background-color: #182227;
+	padding: 70px 0;
+}
+
+footer p {
+	font-size: 17px;
+	color: #fff;
+}
+
+footer div.social {
+	text-align: center;
+}
+
+footer div.social div {
+	display: inline-block;
+
+}
+
+.social img {
+	width: 12px;
+	height: 12px;
+	background-color: #fafafa;
+	padding: 10px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.social img:hover {
+	background-color: #bbb;
+}
